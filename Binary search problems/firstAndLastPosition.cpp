@@ -108,12 +108,12 @@ int main(){
     int first = bruteForcefirstOccurance(arr,n,target);
     int last = bruteForcelastOccurance(arr,n,target);
 
-    int optimizefirst = optimizefirstOccurance(arr,n,target);
-    int optimizelast = optimizelastOccurance(arr,n,target);
+    // int optimizefirst = optimizefirstOccurance(arr,n,target);
+    // int optimizelast = optimizelastOccurance(arr,n,target);
 
     cout<<"first = "<<first<<endl;
     cout<<"last = "<<last<<endl;
 
-    cout<<"optimizefirst = "<<optimizefirst<<endl;
-    cout<<"optimizelast = "<<optimizelast;
+    // cout<<"optimizefirst = "<<optimizefirst<<endl;
+    // cout<<"optimizelast = "<<optimizelast;
 }
