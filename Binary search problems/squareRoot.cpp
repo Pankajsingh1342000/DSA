@@ -25,7 +25,7 @@ long long int squareRoot(int n){
 double morePrecision(double n, int precision, int intSquare){
     double factor = 1;
     double ans = intSquare;
-    for(int i =0; i<precision; i++){
+    for(int i=0; i<precision; i++){
         factor = factor/10;
         for(double j=ans; j*j<n; j=j+factor){
             ans = j;
